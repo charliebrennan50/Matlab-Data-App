@@ -27,6 +27,8 @@ function [returnList] = ListElementsPresent(data, SeriesList)
        end
     end
     
+    % make sure to return something otherwise it will error
+    
     if isempty(returnList)
         returnList = 'No data';
     end
